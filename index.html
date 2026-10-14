@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f4ec">
+  <title>Feryal & Mazen | Save the Date</title>
+  <meta name="description" content="Save the date for Feryal and Mazen's weddings in Lebanon and Canada.">
+  <style>
+    :root{--ivory:#f8f4ec;--paper:#fffdf8;--gold:#b39a69;--gold-dark:#8b7447;--ink:#554837;--muted:#7d715f;--line:#dfd2b8}
+    *{box-sizing:border-box}body{margin:0;background:var(--ivory);color:var(--ink);font-family:Georgia,"Times New Roman",serif}
+    .page{min-height:100vh;padding:26px 16px 52px}.card{max-width:780px;margin:0 auto;background:var(--paper);border:1px solid var(--line);box-shadow:0 12px 45px rgba(79,61,34,.08);text-align:center;overflow:hidden}
+    .hero{min-height:240px;padding:34px 20px;display:grid;place-items:center;background:linear-gradient(rgba(248,244,236,.48),rgba(248,244,236,.80)),radial-gradient(ellipse at 20% 15%,#e5d8bd 0 9%,transparent 10%),radial-gradient(ellipse at 80% 25%,#e4d7c0 0 8%,transparent 9%),linear-gradient(135deg,#eee4d2,#faf7f0 50%,#e7dcc8);position:relative}
+    .hero:before,.hero:after{content:"✧  ❧  ✧";color:var(--gold-dark);letter-spacing:.5rem;position:absolute;font-size:17px;opacity:.8}.hero:before{top:20px;left:18px;transform:rotate(-12deg)}.hero:after{bottom:20px;right:18px;transform:rotate(168deg)}
+    .eyebrow{font:11px/1.7 Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-dark)}h1{font-size:clamp(42px,8vw,72px);font-weight:400;line-height:1.03;margin:16px 0 10px}.amp{color:var(--gold);font-style:italic}.subtitle{font:12px/1.7 Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase;color:var(--gold-dark)}
+    .content{padding:36px clamp(20px,6vw,62px) 42px}.rule{width:76px;height:1px;background:var(--gold);margin:22px auto}h2{font-weight:400;font-size:clamp(28px,5vw,38px);margin:0 0 14px}p{line-height:1.75;color:var(--muted);font-size:16px}
+    .dates{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:25px 0}.date-card{border:1px solid var(--line);padding:20px 12px;background:#fffaf1}.country{font:11px Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-dark)}.date{font-size:22px;margin:10px 0 6px}.date-note{font:12px Arial,sans-serif;color:var(--muted)}
+    .vote{background:#f7f1e6;border-top:1px solid var(--line);padding:36px clamp(20px,6vw,62px) 42px}.vote h2{font-size:32px}.choices{display:grid;gap:10px;margin:24px auto 18px;max-width:520px;text-align:left}
+    .choice{display:flex;align-items:flex-start;gap:12px;padding:14px 16px;background:#fffdf9;border:1px solid var(--line);border-radius:3px;cursor:pointer;font:15px/1.5 Arial,sans-serif;color:var(--ink)}.choice:has(input:checked){border-color:var(--gold-dark);background:#fffaf0}input[type=radio]{accent-color:var(--gold-dark);margin-top:3px}
+    .button{appearance:none;border:1px solid var(--gold-dark);background:var(--gold-dark);color:white;padding:13px 26px;font:12px Arial,sans-serif;letter-spacing:.13em;text-transform:uppercase;cursor:pointer;border-radius:2px}.button:hover{background:#725c36}.small{font:12px/1.6 Arial,sans-serif;color:#8c806e;margin-top:14px}.footer{padding:22px;color:var(--gold-dark);font-size:14px;font-style:italic}
+    @media(max-width:480px){.page{padding:0}.card{border-left:0;border-right:0}.hero{min-height:220px}.content,.vote{padding-top:30px;padding-bottom:34px}.dates{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<main class="page"><article class="card">
+  <header class="hero"><div><div class="eyebrow">Together with our families</div><h1>Feryal <span class="amp">&amp;</span> Mazen</h1><div class="subtitle">Are getting married</div></div></header>
+  <section class="content">
+    <div class="eyebrow">Two celebrations · One love</div><div class="rule"></div><h2>Save the Date</h2>
+    <p>We’re so happy to share our news with the people we love.<br>We hope you can celebrate with us!</p>
+    <div class="dates">
+      <div class="date-card"><div class="country">Lebanon Wedding</div><div class="date">July 3</div><div class="date-note">Lebanon · Year to be confirmed</div></div>
+      <div class="date-card"><div class="country">Canada Wedding</div><div class="date">July 10</div><div class="date-note">Canada · Year to be confirmed</div></div>
+    </div>
+    <p class="small">Formal invitations and further details will follow.</p>
+  </section>
+  <section class="vote">
+    <div class="eyebrow">Please let us know</div><div class="rule"></div><h2>Which celebration can you attend?</h2>
+    <p>Your response will help us plan. Please choose the option that best describes your plans.</p>
+    <form id="attendance-vote">
+      <div class="choices">
+        <label class="choice"><input type="radio" name="attendance" value="Lebanon Wedding only" required><span>I can attend the Lebanon wedding on July 3</span></label>
+        <label class="choice"><input type="radio" name="attendance" value="Canada Wedding only"><span>I can attend the Canada wedding on July 10</span></label>
+        <label class="choice"><input type="radio" name="attendance" value="Both weddings"><span>I can attend both weddings</span></label>
+        <label class="choice"><input type="radio" name="attendance" value="Cannot attend"><span>I can't attend either wedding</span></label>
+        <label class="choice"><input type="radio" name="attendance" value="Not sure yet"><span>I'm not sure yet</span></label>
+      </div>
+      <button class="button" type="submit">Submit response</button>
+      <p id="vote-message" class="small" aria-live="polite">Preview only: connect a form before publishing so responses are saved for you.</p>
+    </form>
+  </section>
+  <footer class="footer">With love, Feryal &amp; Mazen</footer>
+</article></main>
+<script>
+document.getElementById('attendance-vote').addEventListener('submit',function(e){
+  e.preventDefault();const selected=document.querySelector('input[name="attendance"]:checked');
+  const msg=document.getElementById('vote-message');
+  if(!selected){msg.textContent='Please select an option.';return;}
+  msg.textContent='Thank you! Your selection is “'+selected.value+'”. This is only a preview; connect a real form to save responses.';
+});
+</script>
+</body></html>

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Feryal and Mazen//Wedding Dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:toronto@feryalandmazenwedding.com
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270711
+SUMMARY:Feryal & Mazen - Toronto Reception
+LOCATION:The Omni King Edward Hotel\, Toronto\, Canada
+DESCRIPTION:Wedding reception of Feryal and Mazen in Toronto\, Canada.
+END:VEVENT
+END:VCALENDAR

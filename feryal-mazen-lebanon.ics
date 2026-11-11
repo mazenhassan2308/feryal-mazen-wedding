@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Feryal and Mazen//Wedding Dates//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:lebanon@feryalandmazenwedding.com
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:Feryal & Mazen - Lebanon Reception
+LOCATION:Hightower Castle\, Baissour\, Lebanon
+DESCRIPTION:Wedding reception of Feryal and Mazen in Baissour\, Lebanon.
+END:VEVENT
+END:VCALENDAR
